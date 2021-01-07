@@ -1,0 +1,35 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '2013-12-01_00:00:00',
+ end_date   = '2013-12-31_18:00:00',
+ interval_seconds = 21600
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         =   1,   1,
+ parent_grid_ratio =   1,   5,
+ i_parent_start    =   1,  51,
+ j_parent_start    =   1,  40,
+ e_we              =  92, 211,
+ e_sn              =  96, 121,
+ geog_data_res = 'gmted2010_30s+corine+30s',
+ dx = 50000,
+ dy = 50000,
+ map_proj = 'lambert',
+ ref_lat   =  53.00,
+ ref_lon   =  8.5,
+ truelat1  =  40.0,
+ truelat2  =  70.0,
+ stand_lon =  17.5,
+ geog_data_path = '/media/BIG/WRF_4.2/WPS_GEOG/'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'FILE',
+/
+
+
+
