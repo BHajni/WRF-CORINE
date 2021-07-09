@@ -11,7 +11,7 @@ Application:
 3) no recompilation required for the WPS
 
 If you're using the full 98 categories CORINE follow steps 4) to 6), if not, jump to 7)
-4) overwrite the source codes found in the WRF-4.2 folders with the supplied ones. 
+4) overwrite the source codes found in the WRF folders with the supplied ones (check whether you're using WRF 4.2 or 4.3). 
 5) recompile the WRF model (no need for clean -a)
 6) in the namelist.input set num_land_cat to 88
 7) CURRENTLY ONLY WORKS WITH URBAN_PHYS=0, AND NOAH-MP (urban inclusion is on its way)
