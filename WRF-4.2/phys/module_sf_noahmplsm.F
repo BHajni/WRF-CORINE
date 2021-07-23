@@ -210,7 +210,7 @@ MODULE MODULE_SF_NOAHMPLSM
     LOGICAL :: EBL_FLAG
 !END CORINE
 !CORINE
-    INTEGER                             :: URBAN_CORINE_CAT(15)  !CORINE URBAN CATEGORIES
+    INTEGER                             :: URBAN_CORINE_CAT(25)  !CORINE URBAN CATEGORIES
     INTEGER                             :: BARREN_CORINE_CAT(9)  !CORINE BARREN CATEGORIES
     INTEGER                             :: ICE_CORINE_CAT(2)
     INTEGER                             :: EBL_CORINE_CAT(2)
@@ -9187,7 +9187,7 @@ MODULE NOAHMP_TABLES
     INTEGER :: HIGH_DENSITY_RESIDENTIAL_TABLE
     INTEGER :: HIGH_INTENSITY_INDUSTRIAL_TABLE
 !CORINE
-    INTEGER                             :: URBAN_CORINE_CAT_TABLE(15)  !CORINE URBAN CATEGORIES
+    INTEGER                             :: URBAN_CORINE_CAT_TABLE(25)  !CORINE URBAN CATEGORIES
     INTEGER                             :: BARREN_CORINE_CAT_TABLE(9)  !CORINE BARREN CATEGORIES
     INTEGER                             :: ICE_CORINE_CAT_TABLE(2)
     INTEGER                             :: EBL_CORINE_CAT_TABLE(2)
@@ -9430,7 +9430,7 @@ CONTAINS
     INTEGER :: HIGH_INTENSITY_INDUSTRIAL
 
     !CORINE
-    INTEGER                             :: URBAN_CORINE_CAT(15)  !CORINE URBAN CATEGORIES
+    INTEGER                             :: URBAN_CORINE_CAT(25)  !CORINE URBAN CATEGORIES
     INTEGER                             :: BARREN_CORINE_CAT(9)  !CORINE BARREN CATEGORIES
     INTEGER                             :: ICE_CORINE_CAT(2)
     INTEGER                             :: EBL_CORINE_CAT(2)
