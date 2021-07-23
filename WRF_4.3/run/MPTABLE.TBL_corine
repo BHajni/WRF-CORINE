@@ -91,7 +91,7 @@
  LOW_DENSITY_RESIDENTIAL   = 31																																																																																																		
  HIGH_DENSITY_RESIDENTIAL  = 32																																																																																																		
  HIGH_INTENSITY_INDUSTRIAL = 33																																																																																																		
- URBAN_CORINE_CAT = 1,31,32,33,41,42,43,44,45,46,47,48,49,50,51,,52,53,54,55,56,57,58,59,60,61																																																																																																	
+ URBAN_CORINE_CAT = 1,31,32,33,34,35,36,37,38,39,40,41,50,51,52,53,54,55,56,57,58,59,60,61																																																																																																	
  BARREN_CORINE_CAT = 19,23,25,26,27,80,81,82,83																																																																																																		
  ICE_CORINE_CAT = 24,84																																																																																																		
  EBL_CORINE_CAT = 13,95																																																																																																		
